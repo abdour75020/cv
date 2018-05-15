@@ -1,0 +1,113 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("computers.png");
+	color: white;
+
+}
+
+#container{
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+}
+
+header
+{
+	height: 25%;
+	background-color: blue;
+	display: flex;
+	font-size: 200%;
+
+}
+.nom
+{
+	flex: 1;
+	text-align: center;
+}
+.droite hr
+{
+ width: 50%;
+}
+.gauche 
+{
+
+}
+#information
+{
+	display: flex;
+	justify-content: space-around;
+	height: 10%;
+	background-color: red;
+}
+
+.tel
+{
+  flex: 1;
+  text-align: center;
+}
+
+#moi
+{
+	height: 20%;
+	background-color: purple;
+	display: flex;
+}
+
+.about
+{
+	flex: 1;
+	text-align: center;
+}
+.about hr
+{
+	width: 50%;
+}
+.info
+{
+	flex: 3;
+}
+
+#experience
+{
+	flex: 1;
+	background-color: pink;
+	display: flex;
+}
+
+#skills
+{
+	flex: 1;
+	background-color: purple;
+	display: flex;
+
+}
+#div
+{
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.list
+{
+	flex: 1;
+	text-align: center;
+
+}
+.list ul 
+{
+	list-style-type: none;
+}
+
+.point
+{
+	flex:2;
+}
+.point ul
+{
+ list-style-type: none;
+}
