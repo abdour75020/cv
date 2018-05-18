@@ -22,7 +22,7 @@ hr
 header
 {
 	height: 25%;
-	background-color:rgba(242, 242,242 ,0.9);
+	background-color:rgba(191, 191,191 ,0.9);
 	display: flex;
 	font-size: 200%;
 	border-top: solid white 1px; 
@@ -46,7 +46,7 @@ header
 	display: flex;
 	justify-content: space-around;
 	height: 10%;
-	background-color:rgba(217, 217, 217,0.9);
+	background-color:rgba(166, 166, 166,0.9);
 	border-top: solid white 1px; 
 }
 
@@ -59,7 +59,7 @@ header
 #moi
 {
 	height: 20%;
-	background-color: rgba(204, 204, 204,0.9);
+	background-color: rgba(140, 140, 140,0.9);
 	display: flex;
 	border-top: solid white 1px; 
 }
@@ -81,7 +81,7 @@ header
 #experience
 {
 	flex: 1;
-	background-color: rgba(179, 179, 179,0.9);
+	background-color: rgba(115, 115, 115,0.9);
 	display: flex;
 	border-top: solid white 1px;
 
@@ -90,7 +90,7 @@ header
 #skills
 {
 	flex: 1;
-	background-color: rgba(140, 140, 140,0.9);
+	background-color: rgba(89, 89, 89,0.9);
 	display: flex;
 	border-top: solid white 1px;
 	border-bottom: solid white 1px;
