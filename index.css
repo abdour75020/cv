@@ -9,7 +9,10 @@ html,body
 	color: white;
 
 }
-
+hr
+{
+	color: #ffffff;
+}
 #container{
 	height: 100%;
 	margin: 0 auto;
@@ -19,9 +22,10 @@ html,body
 header
 {
 	height: 25%;
-	background-color: blue;
+	background-color:rgba(242, 242,242 ,0.9);
 	display: flex;
 	font-size: 200%;
+	border-top: solid white 1px; 
 
 }
 .nom
@@ -42,7 +46,8 @@ header
 	display: flex;
 	justify-content: space-around;
 	height: 10%;
-	background-color: red;
+	background-color:rgba(217, 217, 217,0.9);
+	border-top: solid white 1px; 
 }
 
 .tel
@@ -54,8 +59,9 @@ header
 #moi
 {
 	height: 20%;
-	background-color: purple;
+	background-color: rgba(204, 204, 204,0.9);
 	display: flex;
+	border-top: solid white 1px; 
 }
 
 .about
@@ -75,15 +81,20 @@ header
 #experience
 {
 	flex: 1;
-	background-color: pink;
+	background-color: rgba(179, 179, 179,0.9);
 	display: flex;
+	border-top: solid white 1px;
+
 }
 
 #skills
 {
 	flex: 1;
-	background-color: purple;
+	background-color: rgba(140, 140, 140,0.9);
 	display: flex;
+	border-top: solid white 1px;
+	border-bottom: solid white 1px;
+	
 
 }
 #div
